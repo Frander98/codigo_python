@@ -1,3 +1,5 @@
+#Programa para convertir moneda de dólares a colones costarricenses.
+
 dollars = input("¿Cuántos dólares tienes?: ")
 dollars = float(dollars)
 tipo_cambio = 601.03
