@@ -5,9 +5,9 @@ def factorial(n):
     cuando llegue a 0, 
     """
     print(n)
-    if n == 0:
+    if n == 0: #podríamos decir if n <= 1= ... return n
         return 1
     else: 
         return n * factorial(n-1)
 
-print(factorial(6))
+print(factorial(3))
